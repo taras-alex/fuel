@@ -4,7 +4,6 @@ def fuel(expense, stock):
     900.0
 
     """
-    # k - magic numbers, запас хода +10%
-    k = 0.9
-    result = k * (stock / expense) * 100
+    resere = 0.1
+    result = (1 - resere) * (stock / expense) * 100
     return result
